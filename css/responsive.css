@@ -323,10 +323,22 @@ h2.rocket-heading::after{
 .block{
     display: block !important;
 }
-
-
-
-
+.popup-container{
+    z-index: 9999;
+}
+.popup-container > div{
+    width: 300px;
+}
+.popup-container h3 {
+    font-size: 19px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.popup-container input[type='number'] {
+    width: 255px;
+    border: none;
+}
 
 
 
