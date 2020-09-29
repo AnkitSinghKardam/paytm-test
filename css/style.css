@@ -259,7 +259,9 @@ h2.rocket-heading::after{
     margin-bottom: 5px;
     line-height: 21px;    
 }
-
+.double-section > div.description h3 > span{
+    display: block;
+}
 .success-story{
     text-align: center;
     position: relative;

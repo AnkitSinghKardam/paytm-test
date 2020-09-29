@@ -340,7 +340,9 @@ h2.rocket-heading::after{
     border: none;
 }
 
-
+.double-section > div.description h3 > span{
+    display: initial;
+}
 
 
 
